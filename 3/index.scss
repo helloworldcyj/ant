@@ -1,0 +1,29 @@
+.Pipeline {
+	div {
+		box-sizing: border-box;
+	}
+	position: relative;
+	display: flex;
+	&-svg {
+		position: absolute;
+		width: 100%;
+		height: 100%
+	}
+	&-item {
+		margin-right: 32px;
+		&Title {
+			font-weight: bold;
+		}
+		
+		&JobItem {
+			width: 200px;
+			height: 40px;
+			display: flex;
+			margin-top: 8px;
+			align-items: center;
+			border-radius: 16px;
+			border: 1px solid #ccc;
+		}
+	}
+	
+}
